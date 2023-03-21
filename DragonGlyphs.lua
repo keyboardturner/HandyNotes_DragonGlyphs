@@ -112,6 +112,19 @@ local points = {
     [2112] = { -- Valdrakken
         [59253803] = {16101}, -- Dragon Glyphs: Valdrakken -- complete
     },
+
+    --10.0.7
+    [2151] = {
+        [20569140] = {17399}, -- Dragon Glyphs: Talon's Watch -- complete
+        [18381320] = {17398}, -- Dragon Glyphs: Warlord's Perch (probably supposed to be Winglord's Perch?) -- complete (used to be Northwind Point)
+        [37693069] = {17405}, -- Dragon Glyphs: Caldera of the Menders -- complete
+        [48516897] = {17403}, -- Dragon Glyphs: The Frosted Spine -- complete (used to be War Creche)
+        [79553264] = {17401}, -- Dragon Glyphs: Dragonskull Island -- complete
+        [62543238] = {17400}, -- Dragon Glyphs: Froststone Peak -- complete (used to be Fragstone Vault)
+        [59056508] = {17404}, -- Dragon Glyphs: Talonlord's Perch -- complete
+        [77295510] = {17402}, -- Dragon Glyphs: Stormsunder Mountain -- complete
+
+    },
 }
 
 local info_from_coord = function(uiMapId, coord)
