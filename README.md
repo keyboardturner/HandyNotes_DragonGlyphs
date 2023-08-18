@@ -11,3 +11,5 @@ Dragon Glyph Completion for the Dragon Isles
 <p>You may need to manually put this in your beta folder:</p>
 <pre class="codeStyle">World of Warcraft\_beta_\Interface\AddOns</pre>
 <p>&nbsp;</p>
+
+A link to my discord for addon projects and other things can be found [here](https://discord.gg/tA4rrmjPp8).
