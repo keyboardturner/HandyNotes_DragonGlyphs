@@ -1,3 +1,7 @@
+# 0.1.4
+
+Added locations for The War Within (testable on beta)
+
 # 0.1.3
 
 toc bump to 10.2.7
