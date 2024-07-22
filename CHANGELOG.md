@@ -1,3 +1,7 @@
+# 0.1.5
+
+TOC updates for TWW
+
 # 0.1.4
 
 Added locations for The War Within (testable on beta)
