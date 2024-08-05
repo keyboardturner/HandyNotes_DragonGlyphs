@@ -193,41 +193,41 @@ local points = {
 	},
 
 	[2255] = { -- Azj-Kahet
-		[28254525] = {40693}, -- Skyriding Glyphs: Ruptured Lake
-		[47952751] = {40692}, -- Skyriding Glyphs: Siegehold
-		[63342081] = {40691}, -- Skyriding Glyphs: Arathi's End
-		[69853109] = {40700}, -- Skyriding Glyphs: Trickling Abyss
-		[65165544] = {40701}, -- Skyriding Glyphs: Untamed Valley
-		[44536040] = {40694}, -- Skyriding Glyphs: Eye of Ansurek
-		[58006061] = {40699}, -- Skyriding Glyphs: Silken Ward
-		[72268516] = {40698}, -- Skyriding Glyphs: Rak-Ush
-		[65988587] = {40697}, -- Skyriding Glyphs: The Maddening Deep
-		[37437843] = {40695}, -- Skyriding Glyphs: Old Sacrificial Pit
-		[58889034] = {40696}, -- Skyriding Glyphs: Deepwalker Pass
+		[25174065] = {40693}, -- Skyriding Glyphs: Ruptured Lake
+		[46672129] = {40692}, -- Skyriding Glyphs: Siegehold
+		[63451396] = {40691}, -- Skyriding Glyphs: Arathi's End
+		[70542519] = {40700}, -- Skyriding Glyphs: Trickling Abyss
+		[65455172] = {40701}, -- Skyriding Glyphs: Untamed Valley
+		[42945714] = {40694}, -- Skyriding Glyphs: Eye of Ansurek
+		[57635736] = {40699}, -- Skyriding Glyphs: Silken Ward
+		[73148413] = {40698}, -- Skyriding Glyphs: Rak-Ush
+		[66328492] = {40697}, -- Skyriding Glyphs: The Maddening Deep
+		[35817677] = {40695}, -- Skyriding Glyphs: Old Sacrificial Pit
+		[58578979] = {40696}, -- Skyriding Glyphs: Deepwalker Pass
 	},
 
 	[2256] = { -- Azj-Kahet Lower
-		[28254525] = {40693}, -- Skyriding Glyphs: Ruptured Lake
-		[47952751] = {40692}, -- Skyriding Glyphs: Siegehold
-		[63342081] = {40691}, -- Skyriding Glyphs: Arathi's End
-		[69853109] = {40700}, -- Skyriding Glyphs: Trickling Abyss
-		[65165544] = {40701}, -- Skyriding Glyphs: Untamed Valley
-		[44536040] = {40694}, -- Skyriding Glyphs: Eye of Ansurek
-		[58006061] = {40699}, -- Skyriding Glyphs: Silken Ward
-		[72268516] = {40698}, -- Skyriding Glyphs: Rak-Ush
-		[65988587] = {40697}, -- Skyriding Glyphs: The Maddening Deep
-		[37437843] = {40695}, -- Skyriding Glyphs: Old Sacrificial Pit
-		[58889034] = {40696}, -- Skyriding Glyphs: Deepwalker Pass
+		[25174065] = {40693}, -- Skyriding Glyphs: Ruptured Lake
+		[46672129] = {40692}, -- Skyriding Glyphs: Siegehold
+		[63451396] = {40691}, -- Skyriding Glyphs: Arathi's End
+		[70542519] = {40700}, -- Skyriding Glyphs: Trickling Abyss
+		[65455172] = {40701}, -- Skyriding Glyphs: Untamed Valley
+		[42945714] = {40694}, -- Skyriding Glyphs: Eye of Ansurek
+		[57635736] = {40699}, -- Skyriding Glyphs: Silken Ward
+		[73148413] = {40698}, -- Skyriding Glyphs: Rak-Ush
+		[66328492] = {40697}, -- Skyriding Glyphs: The Maddening Deep
+		[35817677] = {40695}, -- Skyriding Glyphs: Old Sacrificial Pit
+		[58578979] = {40696}, -- Skyriding Glyphs: Deepwalker Pass
 	},
 
 	[2213] = { -- Nerub'ar	
-		[13153368] = {40695}, -- Skyriding Glyphs: Old Sacrificial Pit
-		[78167193] = {40696}, -- Skyriding Glyphs: Deepwalker Pass
+		[13123369] = {40695}, -- Skyriding Glyphs: Old Sacrificial Pit
+		[78107122] = {40696}, -- Skyriding Glyphs: Deepwalker Pass
 	},
 
 	[2216] = { -- Nerub'ar Lower
-		[13153368] = {40695}, -- Skyriding Glyphs: Old Sacrificial Pit
-		[78167193] = {40696}, -- Skyriding Glyphs: Deepwalker Pass
+		[13123369] = {40695}, -- Skyriding Glyphs: Old Sacrificial Pit
+		[78107122] = {40696}, -- Skyriding Glyphs: Deepwalker Pass
 	},
 	-- 
 }
