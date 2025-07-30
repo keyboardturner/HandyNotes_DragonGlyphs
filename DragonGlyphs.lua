@@ -166,17 +166,17 @@ local points = {
 	},
 
 	[2214] = { -- The Ringing Deeps
-		[46901005] = {40673}, -- Skyriding Glyphs: The Stonevault Exterior
-		[49043151] = {40672}, -- Skyriding Glyphs: Gundargaz
-		[46445162] = {40680}, -- Skyriding Glyphs: The Waterworks
-		[69543450] = {40675}, -- Skyriding Glyphs: Chittering Den
-		[56185619] = {40676}, -- Skyriding Glyphs: The Rumbling Wastes
-		[62916606] = {40679}, -- Skyriding Glyphs: Taelloch Mine
-		[63899495] = {40678}, -- Skyriding Glyphs: Abyssal Excavation
-		[49266615] = {40677}, -- Skyriding Glyphs: The Living Grotto
-		[57253154] = {40674}, -- Skyriding Glyphs: The Lost Mines
+		[42731005] = {40673}, -- Skyriding Glyphs: The Stonevault Exterior
+		[44873151] = {40672}, -- Skyriding Glyphs: Gundargaz
+		[42275162] = {40680}, -- Skyriding Glyphs: The Waterworks
+		[65373450] = {40675}, -- Skyriding Glyphs: Chittering Den
+		[52015619] = {40676}, -- Skyriding Glyphs: The Rumbling Wastes
+		[58746606] = {40679}, -- Skyriding Glyphs: Taelloch Mine
+		[59729495] = {40678}, -- Skyriding Glyphs: Abyssal Excavation
+		[45096615] = {40677}, -- Skyriding Glyphs: The Living Grotto
+		[53083154] = {40674}, -- Skyriding Glyphs: The Lost Mines
 
-		[42377198] = {40700}, -- Skyriding Glyphs: Trickling Abyss (Azj-Kahet)
+		[38207198] = {40700}, -- Skyriding Glyphs: Trickling Abyss (Azj-Kahet)
 	},
 
 	[2215] = { -- Hallowfall
@@ -229,7 +229,21 @@ local points = {
 		[13123369] = {40695}, -- Skyriding Glyphs: Old Sacrificial Pit
 		[78107122] = {40696}, -- Skyriding Glyphs: Deepwalker Pass
 	},
-	-- 
+
+	[2371] = { -- K'aresh
+		[76474629] = {42719}, -- Skyriding Glyphs: North Sufaad
+		[46495837] = {42718}, -- Skyriding Glyphs: Eco-Dome: Primus
+		[60943874] = {42717}, -- Skyriding Glyphs: Castigaar
+		[43941701] = {42716}, -- Skyriding Glyphs: Shadow Point
+		[54692339] = {42715}, -- Skyriding Glyphs: Fracture of Laacuna
+		[54725320] = {42713}, -- Skyriding Glyphs: Serrated Peaks
+		[74053251] = {42714}, -- Skyriding Glyphs: The Oasis
+		[67758244] = {42712, info = "Requires quest completion: \"What Is Left of Home\""}, -- Skyriding Glyphs: Tazavesh
+	},
+
+	[2472] = { -- Tazavesh
+		[55116754] = {42712, info = "Requires quest completion: \"What Is Left of Home\""}, -- Skyriding Glyphs: Tazavesh
+	},
 }
 
 local info_from_coord = function(uiMapId, coord)
@@ -252,9 +266,16 @@ function HLHandler:OnEnter(uiMapId, coord)
 	else
 		tooltip:SetOwner(self, "ANCHOR_RIGHT")
 	end
-	local achievement = info_from_coord(uiMapId, coord)
-	if achievement then
-		tooltip:SetText(("%s"):format(achievement))
+
+	local point = points[uiMapId] and points[uiMapId][coord]
+	if point then
+		local _, achievement = GetAchievementInfo(point[1])
+		tooltip:SetText(achievement)
+
+		if point.info then
+			tooltip:AddLine(point.info, 1, 1, 1)
+		end
+
 		tooltip:Show()
 	end
 end

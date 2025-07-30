@@ -1,3 +1,7 @@
+# 0.2.2
+
+Fixed Ringing Deeps glyph locations, added K'aresh glyph locations.
+
 # 0.2.1
 
 11.1.7 toc update
