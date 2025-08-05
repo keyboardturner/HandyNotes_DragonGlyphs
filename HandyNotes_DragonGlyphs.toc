@@ -1,4 +1,4 @@
-## Interface: 110107
+## Interface: 110200
 ## Title: HandyNotes_DragonGlyphs
 ## Notes: Dragon Glyphs on the Map
 ## IconTexture: Interface/AddOns/HandyNotes_DragonGlyphs/icon.blp
