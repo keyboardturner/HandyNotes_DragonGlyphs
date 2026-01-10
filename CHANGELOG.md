@@ -1,3 +1,7 @@
+# 0.2.6
+
+Added Midnight skyriding glyph locations.
+
 # 0.2.5
 
 11.2.7 toc update
