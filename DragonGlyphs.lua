@@ -244,7 +244,75 @@ local points = {
 	[2472] = { -- Tazavesh
 		[55116754] = {42712, info = "Requires quest completion: \"What Is Left of Home\""}, -- Skyriding Glyphs: Tazavesh
 	},
-}
+
+	-- Midnight
+	[2395] = { -- Eversong Woods
+		[58931955] = {61523}, -- Skyriding Glyphs: Silvermoon City
+		[51370820] = {61521}, -- Skyriding Glyphs: The Shining Span
+		[39464562] = {61530}, -- Skyriding Glyphs: Sunsail Anchorage
+		[43214638] = {61527}, -- Skyriding Glyphs: Fairbreeze Village
+		[49484804] = {61531}, -- Skyriding Glyphs: Path of Dawn
+		[58425835] = {61526}, -- Skyriding Glyphs: Suncrown Tree
+		[62626279] = {61529}, -- Skyriding Glyphs: Dawnstar Spire
+		[52466756] = {61528}, -- Skyriding Glyphs: Tranquillien
+		[33436539] = {61525}, -- Skyriding Glyphs: Daggerspine Point
+		[39985963] = {61524}, -- Skyriding Glyphs: Goldenmist Village
+		[65223262] = {61522}, -- Skyriding Glyphs: Brightwing Estate
+
+		-- Border of Eversong
+		[63798190] = {61540}, -- Skyriding Glyphs: Amani Pass
+	},
+
+	[2393] = { -- Silvermoon City
+		[73714466] = {61523}, -- Skyriding Glyphs: Silvermoon City
+		[48360656] = {61521}, -- Skyriding Glyphs: The Shining Span
+	},
+
+	[2437] = { -- Zul'Aman
+		[27922860] = {61538}, -- Skyriding Glyphs: Zeb'Alar Lumberyard
+		[39591972] = {61536}, -- Skyriding Glyphs: Witherbark Bluffs
+		[51492357] = {61534}, -- Skyriding Glyphs: Temple of Jan'alai
+		[42963439] = {61532}, -- Skyriding Glyphs: Shadebasin Watch
+		[53205449] = {61535}, -- Skyriding Glyphs: Strait of Hexx'alor
+		[53628041] = {61533}, -- Skyriding Glyphs: Temple of Akil'zon
+		[46748217] = {61539}, -- Skyriding Glyphs: Solemn Valley
+		[42758014] = {61541}, -- Skyriding Glyphs: Spiritpaw Burrow
+		[30428479] = {61537}, -- Skyriding Glyphs: Nalorakk's Prowl
+		[19207061] = {61542}, -- Skyriding Glyphs: Revantusk Sedge
+		[24805492] = {61540}, -- Skyriding Glyphs: Amani Pass
+	},
+	
+	[2413] = { -- Harandar
+		[26556140] = {61551}, -- Skyriding Glyphs: Roots of Shaladrassil
+		[44556281] = {61549}, -- Skyriding Glyphs: Fungara Village
+		[47035321] = {61544}, -- Skyriding Glyphs: The Cradle
+		[61876752] = {61550}, -- Skyriding Glyphs: Rift of Aln
+		[69374585] = {61546}, -- Skyriding Glyphs: Roots of Amirdrassil
+		[60254443] = {61543}, -- Skyriding Glyphs: Blossoming Terrace
+		[54753531] = {61547}, -- Skyriding Glyphs: Blooming Lattice
+		[73132592] = {61548}, -- Skyriding Glyphs: Roots of Nordrassil
+		[34642312] = {61545}, -- Skyriding Glyphs: Roots of Teldrassil
+
+	},
+
+	[2405] = { -- Voidstorm
+		[65097188] = {61561}, -- Skyriding Glyphs: Obscurion Citadel
+		[51346272] = {61552}, -- Skyriding Glyphs: The Voidspire
+		[39917099] = {61557}, -- Skyriding Glyphs: The Bladeburrows
+		[38927612] = {61563}, -- Skyriding Glyphs: Ethereum Refinery
+		[35666111] = {61556}, -- Skyriding Glyphs: The Ingress
+		[37174998] = {61555}, -- Skyriding Glyphs: The Molt
+		[54984553] = {61558}, -- Skyriding Glyphs: Gnawing Reach
+		[43842390] = {61564}, -- Skyriding Glyphs: Hanaar Outpost
+		[49258747] = {61559}, -- Skyriding Glyphs: The Gorging Pit
+		[45295225] = {61562}, -- Skyriding Glyphs: Master's Perch
+		[36103731] = {61560}, -- Skyriding Glyphs: Shadowguard Point
+	},
+
+	[2444] = { -- Slayer's Rise
+		[36144491] = {61564}, -- Skyriding Glyphs: Hanaar Outpost
+	},
+};
 
 local info_from_coord = function(uiMapId, coord)
 	local point = points[uiMapId] and points[uiMapId][coord]
