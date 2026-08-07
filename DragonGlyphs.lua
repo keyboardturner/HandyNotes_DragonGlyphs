@@ -40,7 +40,7 @@ do
 		return icon
 	end
 end
-
+local PLACEHOLDER = 0
 local points = {
 	-- [mapfile] = { [coord] = { [achievement_id], [criteria_index] } }
 	[2022] = { -- The Waking Shore
@@ -311,6 +311,20 @@ local points = {
 
 	[2444] = { -- Slayer's Rise
 		[36144491] = {61564}, -- Skyriding Glyphs: Hanaar Outpost
+	},
+
+	[2512] = { -- Coiled Isle
+		[37406050] = {63394}, -- Skyriding Glyphs: The Fangs
+		[26606320] = {63420}, -- Skyriding Glyphs: The Forum
+		[28807520] = {63421}, -- Skyriding Glyphs: The Wreck of Sethralis's Scales
+		[40609050] = {63422}, -- Skyriding Glyphs: Southern Island
+		[45806490] = {63423}, -- Skyriding Glyphs: Gate of the Eastern Fang
+		[58904890] = {63424}, -- Skyriding Glyphs: Tokka's Landing
+		[64106070] = {63425}, -- Skyriding Glyphs: The Whispering Marsh
+		[70304820] = {63426}, -- Skyriding Glyphs: The Wreck of Paku's Talon
+		[52003840] = {63427}, -- Skyriding Glyphs: The Serpent's Tail
+		[42903060] = {63428}, -- Skyriding Glyphs: Blistering Terrace
+		[43804420] = {63430}, -- Skyriding Glyphs: Gate of the Serpent's Eye
 	},
 };
 

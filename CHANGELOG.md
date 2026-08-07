@@ -1,3 +1,9 @@
+# 0.3.0
+
+Added Coiled Isle skyriding glyph locations.
+
+12.1.0 toc update
+
 # 0.2.9
 
 12.0.7 toc update
